@@ -337,6 +337,7 @@ target_link_libraries(dynarmic
         boost
         fmt::fmt
         mp
+        tsl::robin_map
         xbyak
         $<$<BOOL:DYNARMIC_USE_LLVM>:${llvm_libs}>
 )
